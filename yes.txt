@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🥰 YES!!</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #fff;
+      color: #111;
+      padding: 24px;
+      text-align: center;
+    }
+    .wrap {
+      max-width: 560px;
+      width: 100%;
+    }
+    h1 { margin: 0 0 10px; font-size: 34px; }
+    p { margin: 0 0 18px; font-size: 16px; opacity: 0.85; }
+    img {
+      width: min(420px, 100%);
+      height: auto;
+      border-radius: 18px;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+    }
+    .note {
+      margin-top: 16px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>YAYYYYY 💖</h1>
+    <p>You just made me the happiest person 😭</p>
+
+    <!-- Put your Snoopy image in the same folder and name it snoopy-heart.png -->
+    <img src="snoopy-heart.png" alt="Snoopy holding a heart">
+
+    <div class="note">Happy Valentine’s Day, my love 🫶</div>
+  </div>
+</body>
+</html>
+
